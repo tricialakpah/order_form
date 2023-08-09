@@ -1,0 +1,141 @@
+body {
+    background-color: #000000;
+    font-family: product sans;
+    display: grid;
+    color: #411530;
+}
+
+nav {
+    display: flex;
+    background-color: #411530;
+    justify-content: right;
+    position: absolute;
+    left: 0px;
+    /* right: 400px; */
+    top: 0px;
+    z-index: 1px;
+    width: 96.8%;
+    padding: 0px 20px;
+    
+}    
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    list-style: none;
+}
+.home {
+    text-decoration: underline;
+    
+}
+
+nav ul li a {
+    font-size: 10px;
+    padding: 0 20px;
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: #d1512d;
+}
+.coffee {
+    font-size:  400%;
+    color: #411530;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: none;
+}
+
+.div1 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    padding-right: 20px;
+    color: #411530;
+}
+
+.prybotton {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #d1512d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prybotton:hover {
+    background-color: #ff7048;
+    color: white;
+}
+
+.text1 {
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    color: #411530;
+
+}
+
+.text2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: #411530;  
+}
+
+.div2 {
+    height: auto;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    height: 50px;
+  }
+
+  .payment {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #d1512d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.payment:hover {
+    background-color: #ff7048;
+    color: white;
+}
+
+input[type=radio] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 10px;
+  }
+input[type=checkbox] {
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
